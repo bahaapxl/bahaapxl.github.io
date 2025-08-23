@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto Flex';
   src: url('/fonts/RobotoFlex.woff2') format('woff2');
-  font-weight: 100 1000; /* full variable range */
+  font-weight: 100 1000;
   font-style: normal;
   font-display: swap;
 }
@@ -13,20 +13,51 @@ body {
   font-weight: 400;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
 h1 {
+  font-family: 'Roboto Flex', sans-serif;
   font-size: 50px;
   border-radius: 20px;
-  padding: 20px;
   width: 200px;
+  height: 150px;
   font-weight: 900;
   background-color: #FEDAC8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
+  font-family: 'Roboto Flex', sans-serif;
   width: 1000px;
-  height: 175px;
+  height: 250px;
   background-color: #D87739;
-  border-radius: 100px;
-  padding: 50px;
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 50px;
+  text-align: center;
+}
+
+button {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #361505;
+  font-weight: 900;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D87739;
+  border-radius: 50%;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
 }
